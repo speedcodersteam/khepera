@@ -41,7 +41,7 @@ const Countdown = () => {
     <div className="app">
       <section>
         <header>
-          <h1>Khepera</h1>
+          <h1 className='header'>Khepera <label>24</label></h1>
         </header>
         <div className="wrapper">
           <Counter displayValue={timeDisplay.days} label={'Days'} />

@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cocobiker');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 :root {
     --color-bg: #22262E;
     --color-text: #ffffff;
@@ -55,13 +57,19 @@ header {
 
 header h1 {
     color: var(--color-heading);
-    font-family: var(--font-family-heading);
+    font-family: 'CocoBikeR', sans-serif;
     font-size: clamp(1rem, 2vw, 99rem);
+    font-size: 60px;
     font-weight: 300;
     letter-spacing: 0.1875em;
     margin: unset;
     text-align: center;
     text-transform: uppercase;
+}
+
+header h1 label {
+    font-family: "Marhey", sans-serif;
+    font-weight: 300;
 }
 
 .counter {
@@ -82,7 +90,8 @@ header h1 {
     color: var(--color-heading);
     font-family: var(--font-family-heading);
     font-size: clamp(1rem, 2vw, 99rem);
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 500;
     letter-spacing: 0.1875em;
     margin: 1.25rem 0 0;
     order: 1;
