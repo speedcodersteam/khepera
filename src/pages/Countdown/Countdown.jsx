@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
-// Import the CSS file for styling
 import './countdown.css';
 
-// components
 const Counter = ({ displayValue, label }) => (
   <div className="counter">
     <h2>{label}</h2>
@@ -20,8 +17,7 @@ const Countdown = () => {
   });
 
   useEffect(() => {
-    const nextYear = new Date().getFullYear() + 1;
-    const targetDate = new Date(`Jan 1, ${nextYear} 00:00:00`).getTime();
+    const targetDate = new Date('Feb 17, ' + new Date().getFullYear() + ' 00:00:00').getTime();
 
     const generateTimeDisplay = () => {
       const rightJustNow = new Date().getTime();
@@ -38,7 +34,6 @@ const Countdown = () => {
       setTimeDisplay(generateTimeDisplay());
     }, 1000);
 
-    // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
 
@@ -49,10 +44,10 @@ const Countdown = () => {
           <h1>Khepera</h1>
         </header>
         <div className="wrapper">
-          <Counter displayValue={timeDisplay.days} label={"Days"} />
-          <Counter displayValue={timeDisplay.hours} label={"Hours"} />
-          <Counter displayValue={timeDisplay.minutes} label={"Minutes"} />
-          <Counter displayValue={timeDisplay.seconds} label={"Seconds"} />
+          <Counter displayValue={timeDisplay.days} label={'Days'} />
+          <Counter displayValue={timeDisplay.hours} label={'Hours'} />
+          <Counter displayValue={timeDisplay.minutes} label={'Minutes'} />
+          <Counter displayValue={timeDisplay.seconds} label={'Seconds'} />
         </div>
       </section>
     </div>

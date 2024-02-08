@@ -2,18 +2,27 @@
     --color-bg: #22262E;
     --color-text: #ffffff;
     /* Added color for text */
-    --color-heading: #798EB0;
-    --color-counter: #8973FD;
+    --color-heading: #e5c618;
+    --color-counter: #FFD700;
     --font-family-heading: Mukta;
 }
 
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(15deg, #1a1a1a, var(--color-bg));
+    background-image: url('../../assets/bg3.jpg');
+    /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    /* Ensure the background image covers the entire viewport */
+    background-position: center;
+    /* Center the background image */
     color: var(--color-text);
     display: flex;
     min-height: 100vh;
+    justify-content: center;
+    /* Align the content horizontally */
+    align-items: center;
+    /* Align the content vertically */
 }
 
 section {
@@ -56,7 +65,7 @@ header h1 {
 }
 
 .counter {
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     color: var(--color-counter);
     display: flex;
