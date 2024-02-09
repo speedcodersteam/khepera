@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './countdown.css';
+import FireSpark from '../../components/firespark/Fire';
 
 const Counter = ({ displayValue, label }) => (
   <div className="counter">
