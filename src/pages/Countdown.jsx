@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './countdown.css';
-import FireSpark from '../../components/firespark/Fire';
 
 const Counter = ({ displayValue, label }) => (
   <div className="counter">
-    <h2>{label}</h2>
-    {displayValue}
+    <h2 className='counterLabel' >{label}</h2>
+    <div className="displayValue">
+      {displayValue}
+    </div>
   </div>
 );
 
@@ -42,7 +43,7 @@ const Countdown = () => {
     <div className="app">
       <section>
         <header>
-          <h1 className='header'>Khepera <label>24</label></h1>
+          <h1 className='title'>khepera <label className='titleLabel' >'24</label></h1>
         </header>
         <div className="wrapper">
           <Counter displayValue={timeDisplay.days} label={'Days'} />

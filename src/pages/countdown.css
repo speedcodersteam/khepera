@@ -2,23 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 :root {
     --color-bg: #22262E;
-    --color-text: #ffffff;
     /* Added color for text */
     --color-heading: #e5c618;
     --color-counter: #FFD700;
-    --font-family-heading: Mukta;
 }
 
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url('../../assets/bg3.jpg');
+    background-image: url('../assets/bg3.jpg');
     /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
     /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat;
     background-position: center;
     /* Center the background image */
-    color: var(--color-text);
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -27,15 +25,20 @@ body {
     /* Align the content vertically */
 }
 
-section {
-    margin: auto;
-    padding: 1rem;
+body:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
 }
 
-@media (min-width: 48em) {
-    section {
-        padding: 4rem;
-    }
+section {
+    margin: auto;
 }
 
 .wrapper {
@@ -51,25 +54,20 @@ section {
     }
 }
 
-header {
-    margin-bottom: 2rem;
-}
-
-header h1 {
+.title {
     color: var(--color-heading);
     font-family: 'CocoBikeR', sans-serif;
-    font-size: clamp(1rem, 2vw, 99rem);
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 300;
     letter-spacing: 0.1875em;
     margin: unset;
     text-align: center;
-    text-transform: uppercase;
 }
 
-header h1 label {
+.titleLabel {
     font-family: "Marhey", sans-serif;
-    font-weight: 300;
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .counter {
@@ -79,25 +77,71 @@ header h1 label {
     display: flex;
     flex-direction: column;
     font-family: "JetBrains Mono", mono;
-    font-size: clamp(1rem, 8vw, 99rem);
     font-weight: 100;
     line-height: 1;
-    padding: 2vw;
+    padding: 10px;
     text-align: center;
+}
+
+.counterLabel {
+    font-size: 30px;
+}
+
+.displayValue {
+    font-size: 70px;
 }
 
 .counter h2 {
     color: var(--color-heading);
     font-family: var(--font-family-heading);
-    font-size: clamp(1rem, 2vw, 99rem);
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 0.1875em;
-    margin: 1.25rem 0 0;
     order: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     text-transform: uppercase;
-    white-space: nowrap;
-    width: 100%;
+}
+
+@media (max-width: 885px) {
+    .wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 30px;
+    }
+}
+
+@media (max-width: 565px) {
+    .title {
+        font-size: 50px;
+    }
+    .titleLabel {
+        font-size: 40px;
+    }
+    .counterLabel {
+        font-size: 10px
+    }
+    .displayValue {
+        font-size: 50px;
+    }
+    .counter h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 358px) {
+    .title {
+        font-size: 30px;
+    }
+    .titleLabel {
+        font-size: 25px;
+    }
+    .counterLabel {
+        font-size: 5px
+    }
+    .displayValue {
+        font-size: 30px;
+    }
+    .counter h2 {
+        font-size: 10px;
+    }
 }
