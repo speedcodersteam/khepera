@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './countdown.css';
+import ParticleEffect from '../ParticlesEffect/ParticleEffect';
 
 const Counter = ({ displayValue, label }) => (
   <div className="counter">
@@ -41,6 +42,7 @@ const Countdown = () => {
 
   return (
     <div className="app">
+      <ParticleEffect/>
       <section>
         <header>
           <h1 className='title'>khepera <label className='titleLabel' >'24</label></h1>
