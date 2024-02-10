@@ -11,7 +11,7 @@ const ParticleEffect = () => {
       "value":400,
       "density":{
         "enable":true,
-        "value_area":3000}
+        "value_area":600}
     },
     "color":{
       "value":"#fc9b00"
@@ -60,7 +60,7 @@ const ParticleEffect = () => {
     },
     "move":{
       "enable":true,
-      "speed":7.81,
+      "speed":1,
       "direction":"top",
       "random":true,
       "straight":false,
@@ -74,7 +74,7 @@ const ParticleEffect = () => {
     }
   },
   "interactivity":{
-    "detect_on":"canvas",
+    "detect_on":"canvas",     
     "events":{
       "onhover":{
         "enable":false,
@@ -140,7 +140,9 @@ const ParticleEffect = () => {
   }, []);
 
   return (
-    <div id="particles-js"></div>
+    <div id="particles-js">
+    <div className="js-count-particles"></div>
+    </div>
   );
 };
 
