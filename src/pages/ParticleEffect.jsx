@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './ParticleEffect.css';
 import 'particles.js';
-import Stats from 'stats.js';
 
 
 const ParticleEffect = () => {
