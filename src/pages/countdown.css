@@ -37,6 +37,10 @@ body:after {
     z-index: -1;
 }
 
+.fire {
+    width: 100%;
+}
+
 section {
     margin: auto;
 }
