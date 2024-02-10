@@ -1,11 +1,10 @@
 import './App.css';
-//import Countdown from './pages/CountDown/Countdown';
-import Home from './pages/Home/Home';
+import Countdown from './pages/CountDown/Countdown';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Countdown/>
     </div>
   );
 }
