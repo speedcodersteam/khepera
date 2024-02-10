@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url('../assets/bg3.jpg');
+    background-image: url('../../assets/bg3.jpg');
     /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
     /* Ensure the background image covers the entire viewport */
@@ -35,10 +35,6 @@ body:after {
     background-color: black;
     opacity: 0.4;
     z-index: -1;
-}
-
-.fire {
-    width: 100%;
 }
 
 section {
