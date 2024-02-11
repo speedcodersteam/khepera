@@ -19,19 +19,21 @@ export default function Home() {
       </div>
     </div>*/}
     <div class='container'>
-      <div class='grid'>
+      <div className="secondContainer">
+        <div class='grid'>
         <div class='header'>
           <div class='title'>
             <img src={titleImg} alt="title" />
-            <p className='caption'>Find it & Free</p>
+            <p className='caption'>find the stashed</p>
           </div>
         </div>
         <div class='imageContent'>
           <img src={hintOne} alt="eye" />
         </div>
         <div class='footer'>
-          <p className='hintOne'>"Unlocking the mysteries of the past often requires attention to the smallest details. Keep your eyes open for subtle clues hiding in plain sight; sometimes, the key to unraveling a puzzle lies in the most unexpected places. Trust your instincts and explore every avenue, for every piece of information could be a stepping stone toward discovery."</p>
+          <p className='hintOne'>"hint goes here"</p>
         </div>
+      </div>
       </div>
     </div>
   </section>  
