@@ -45,15 +45,14 @@ section {
 }
 
 .header{
+    text-align: center;
     height: 20vh;
     width: 100%;
 
     border: 5px solid black;
-    border: none;
 
     display: flex;
-    text-align: center;
-    justify-content: center;
+    justify-content: center; 
     align-items: center; 
 }
 
@@ -62,20 +61,13 @@ section {
     width: 100%;
     padding: 0 10vw;
     height: auto;
-}
+  }
 
-.title p{
-    font-size: 20px;   
-    color: maroon;  
-    font-weight: 400;                                                                     
-}
-
-.imageContent{
+.imageContent {
     height: 40vh;
     width: 100%;
 
     border: 5px solid black;
-    border: none;
 
     display: flex;
     text-align: center;
@@ -89,27 +81,14 @@ section {
     height: auto;
   }
 
-.footer{
+.footer {
     height: 30vh;
     width: 100%;
 
     border: 5px solid black;
-    border: none;
-
-    padding:20px;
-
-    font-size: 15px;
-    font-family: 'CocoBikeR', sans-serif;
-    font-weight: 300;
 
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center; 
-}
-
-.footer p{
-    width: 100%;
-    max-width: 600px;
-    height: auto;
 }
