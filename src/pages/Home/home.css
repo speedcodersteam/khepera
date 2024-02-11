@@ -1,14 +1,4 @@
 @import url('https://fonts.cdnfonts.com/css/cocobiker');
-@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
-
-@font-face {
-    font-family: 'kasyiroregular';
-    src: url('../../assets/fonts/kasyiro-webfont.woff2') format('woff2'),
-         url('../../assets/fonts/kasyiro-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body {
     background-image: url('../../assets/bg9.jpg');
@@ -57,29 +47,71 @@ section{
 }
 
 .header{
-    text-align: center;
     height: 20vh;
     width: 100%;
 
+    border: 5px solid black;
+    border: none;
+
     display: flex;
-    justify-content: center; /* horizontally center the content */
-    align-items: center; /* vertically center the content */
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
 }
 
 .title img {
     /* Add styles for the image */
-    max-width: 100%;
+    width: 100%;
+    padding: 0 10vw;
     height: auto;
   }
+
+.title p{
+    font-size: 20px;   
+    color: maroon;  
+    font-weight: 400;                                                                     
+}
 
 .imageContent{
     height: 40vh;
     width: 100%;
-    background-color: aquamarine;
+
+    border: 5px solid black;
+    border: none;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
 }
+
+.imageContent img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 
 .footer{
     height: 30vh;
     width: 100%;
-    background-color:aliceblue;
+
+    border: 5px solid black;
+    border: none;
+
+    padding:20px;
+
+    font-size: 15px;
+    font-family: 'CocoBikeR', sans-serif;
+    font-weight: 300;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer p{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
