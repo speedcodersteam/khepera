@@ -11,18 +11,13 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-image: url('../../assets/bg3.jpg');
-    /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
-    /* Ensure the background image covers the entire viewport */
     background-repeat: no-repeat;
     background-position: center;
-    /* Center the background image */
     display: flex;
     min-height: 100vh;
     justify-content: center;
-    /* Align the content horizontally */
     align-items: center;
-    /* Align the content vertically */
 }
 
 body:after {

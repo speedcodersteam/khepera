@@ -6,7 +6,5 @@
 
 body {
   font-family: var(--body-font);
-  background-color: var(--body-color);
-  -ms-overflow-style: none;  
-  overflow-x: hidden !important;
+  background-color:black;
 }

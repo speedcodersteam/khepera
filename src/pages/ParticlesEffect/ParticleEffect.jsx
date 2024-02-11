@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './ParticleEffect.css';
 import 'particles.js';
 
-
 const ParticleEffect = () => {
   useEffect(() => {
     window.particlesJS("particles-js", {
