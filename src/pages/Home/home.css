@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/cocobiker');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 
 body {
     background-image: url('../../assets/bg9.jpg');
@@ -20,26 +21,23 @@ body:after {
     z-index: -99;
 }
 
-section{
+section {
     border: none;
     height: 96vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container{
+.container {
     background-image: url('../../assets/bg5.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
-
     border: none;
     width: 700px;
     margin: auto;
     padding: 3vh 2rem;
-
     height: 100%;
     display: flex;
     align-items: center;
@@ -64,7 +62,7 @@ section{
     width: 100%;
     padding: 0 10vw;
     height: auto;
-  }
+}
 
 .title p{
     font-size: 20px;   
