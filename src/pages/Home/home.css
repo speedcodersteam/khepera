@@ -1,6 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/cocobiker');
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
-
 body {
     background-image: url('../../assets/bg9.jpg');
     background-size: cover;
@@ -30,7 +29,7 @@ section {
 }
 
 .container {
-    background-image: url('../../assets/bg5.png');
+    background-image: url('../../assets/bg6.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -44,16 +43,24 @@ section {
     justify-content: center;
 }
 
-.header{
+
+/* .secondContainer {
+    margin: 30px;
+    border: 5px solid black;
+    background-image: url('../../assets/letters.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.header {
     text-align: center;
     height: 20vh;
     width: 100%;
-
-    border: 5px solid black;
-
+    /*border: 5px solid black;*/
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .title img {
@@ -61,34 +68,70 @@ section {
     width: 100%;
     padding: 0 10vw;
     height: auto;
-  }
+}
 
 .imageContent {
     height: 40vh;
     width: 100%;
-
-    border: 5px solid black;
-
+    /* border: 5px solid black; */
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .imageContent img {
     width: 100%;
     max-width: 400px;
     height: auto;
-  }
+}
 
 .footer {
+    font-family: 'CocoBikeR', sans-serif;
+    font-size: 20px;
     height: 30vh;
     width: 100%;
-
-    border: 5px solid black;
-
+    /* border: 5px solid black; */
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+}
+
+
+/* font pack import */
+
+@font-face {
+    font-family: 'cocobikerheavy';
+    src: url('../../assets/fonts/Cocobiker/cocobiker-heavy-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocobikerlight';
+    src: url('../../assets/fonts/Cocobiker/cocobiker-light-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocobikerregular';
+    src: url('../../assets/fonts/Cocobiker/cocobiker-regular-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocobikerultralight';
+    src: url('../../assets/fonts/Cocobiker/cocobikerultralight-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobikerultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocobikerbold';
+    src: url('../../assets/fonts/Cocobiker/cocobiker-bold-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
