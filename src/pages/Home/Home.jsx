@@ -32,6 +32,7 @@ export default function Home() {
         </div>
         <div class='footer'>
           <p className='hintOne'>"hint goes here"</p>
+          <div className="mummy"></div>
         </div>
       </div>
       </div>
