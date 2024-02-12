@@ -3,7 +3,6 @@ import './App.css';
 import Home from './pages/Home/Home';
 import ParticleEffect from './pages/ParticlesEffect/ParticleEffect';
 
-
 function App() {
   return (
     <div className="App">
