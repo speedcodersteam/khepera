@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/cocobiker');
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 body {
-    background-image: url('../../assets/bg9.jpg');
+    background-image: url('../../assets/home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,13 +11,13 @@ body {
 body:after {
     content: "";
     position: fixed;
+    background: #1e2328;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.2;
-    z-index: -99;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 section {
@@ -29,7 +29,7 @@ section {
 }
 
 .container {
-    background-image: url('../../assets/bg6.png');
+    background-image: url('../../assets/papyrus.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -43,106 +43,139 @@ section {
     justify-content: center;
 }
 
-
-/* .secondContainer {
-    margin: 30px;
-    border: 5px solid black;
-    background-image: url('../../assets/letters.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 .header {
     text-align: center;
-    height: 20vh;
     width: 100%;
-    /*border: 5px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 5vh 10vw;
+    border-bottom: 2px solid black;
 }
 
 .title img {
-    /* Add styles for the image */
     width: 100%;
-    padding: 0 10vw;
     height: auto;
 }
 
+.caption {
+    font-size: 20px;
+    font-weight:600;
+    color: maroon;
+    font-family: "Marhey", sans-serif;
+    line-height: 1;
+}
+
 .imageContent {
-    height: 40vh;
     width: 100%;
-    /* border: 5px solid black; */
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid black;
 }
 
 .imageContent img {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
+    padding: 10px;
     height: auto;
 }
 
 .footer {
     font-family: 'CocoBikeR', sans-serif;
     font-size: 20px;
-    height: 30vh;
     width: 100%;
-    /* border: 5px solid black; */
-    display: flex;
+
+    display: grid;
     text-align: center;
     justify-content: center;
-    align-items: center;
+
+    padding: 0 0vw;
 }
 
-.caption {
+.hint{
+    padding: 2vh 10px 0 10px;
+    font-family: "Marhey", sans-serif;
+    font-weight: 600;
+    color: maroon;
+}
+
+.hintContent{
+    border-radius: 20px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 255, 255, 0.4));
+    border-top: 10px solid rgba(255, 255, 255, 0.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+    height: 20vh;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.scrollDown .scrollIco a{
     font-size: 16px;
-    margin-top: 15px;
 }
 
-.mummy {
-    /* width: 30px;
-    height: 30px;
-    background-image: url(../../assets/bt21-chimmy.gif); */
+.hintContent::-webkit-scrollbar {
+    display: none;
 }
 
 
-/* font pack import */
 
-@font-face {
-    font-family: 'cocobikerheavy';
-    src: url('../../assets/fonts/Cocobiker/cocobiker-heavy-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-heavy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+  @media screen and (max-width: 550px) {
+    .container {
+        padding: 3vh 2.5rem;
+    }
+    .header {
+        padding: 1vh 2vw;
+    }
+    
+    .caption {
+        font-size:  4vw;  
+    }
 
-@font-face {
-    font-family: 'cocobikerlight';
-    src: url('../../assets/fonts/Cocobiker/cocobiker-light-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    .hint{
+        font-size:  4vw;  
+    }
 
-@font-face {
-    font-family: 'cocobikerregular';
-    src: url('../../assets/fonts/Cocobiker/cocobiker-regular-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    .hintContent{
+        font-size:  3.5vw;        
+        height: 20vh;
+        margin-bottom: 20px;
+    }
 
-@font-face {
-    font-family: 'cocobikerultralight';
-    src: url('../../assets/fonts/Cocobiker/cocobikerultralight-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobikerultralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    .scrollDown .scrollIco a{
+        font-size: 3vw;
+    }     
+  }
+  
+  @media screen and (max-width: 350px) {
+    .container {
+        padding: 3vh 2rem;
+    }
+    .header {
+        padding: 3vh 5vw;
+    }
+    
+    .caption {
+        font-size: 4vw;
+    }
 
-@font-face {
-    font-family: 'cocobikerbold';
-    src: url('../../assets/fonts/Cocobiker/cocobiker-bold-webfont.woff2') format('woff2'), url('../../assets/fonts/Cocobiker/cocobiker-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    .hint{
+        font-size: 4vw;
+    }
+
+    .hintContent{
+        font-size:  3.5vw;
+        height: 25vh;
+        margin-bottom: 20px;
+    }
+
+    .scrollDown .scrollIco a{
+        font-size: 3vw;
+    }    
+  }
