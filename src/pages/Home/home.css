@@ -36,7 +36,7 @@ section {
     border: none;
     width: 700px;
     margin: auto;
-    padding: 3vh 2rem;
+    padding: 3vh 4rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -50,8 +50,8 @@ section {
     justify-content: center;
     align-items: center;
 
-    padding: 5vh 10vw;
-    border-bottom: 2px solid black;
+    padding: 5vh 10vw 2vh 10vw;
+    border-bottom: 3px solid black;
 }
 
 .title img {
@@ -73,13 +73,12 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 .imageContent img {
     width: 100%;
     max-width: 300px;
-    padding: 10px;
+    padding: 3vh 10px 10px 10px;
     height: auto;
 }
 
@@ -105,7 +104,6 @@ section {
 .hintContent{
     border-radius: 20px;
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 255, 255, 0.4));
-    border-top: 10px solid rgba(255, 255, 255, 0.4);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: capitalize;
     text-align: justify;
@@ -124,7 +122,9 @@ section {
     display: none;
 }
 
+.messageContainer{
 
+}
 
   @media screen and (max-width: 550px) {
     .container {
