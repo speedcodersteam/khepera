@@ -1,7 +1,7 @@
 import React from 'react'
 import './Final.css';
 import ParticleEffect from '../ParticlesEffect/ParticleEffect';
-import item1Img from '../../assets/item1.png';
+//import item1Img from '../../assets/item1.png';
 
 export default function Final() {
   return (
