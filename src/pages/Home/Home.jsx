@@ -5,6 +5,7 @@ import './home.css';
 import SlideShow from '../Slides/SlideShow';
 import titleImg from "../../assets/title.png";
 import Preloader from '../Preloader/Preloader';
+import Help from '../Help/Help';
 //import ScrollDown from '../ScrollDown/ScrollDown';
 
 export default function Home() {
@@ -26,7 +27,9 @@ export default function Home() {
               <div className='imageContent'>
                 <SlideShow/>
               </div>
-              
+              <div className="help">
+                <Help/>
+              </div>
             </div>
         </div>
       </div>
