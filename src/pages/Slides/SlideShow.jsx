@@ -29,15 +29,18 @@ const SlideShow = () => {
         <button 
           key={datas.id} 
           onClick={() => {
-            if (datas.id !== 3 
+           // if (
+              //datas.id !== 3 
               //&& datas.id !== 2
-              ) {
+              //) 
+              //{
               handleImageChange(datas.id);
-            }
+            //}
           }}
-          disabled={datas.id === 3 
+          //disabled={
+           // datas.id === 3 
             //|| datas.id === 2
-          } 
+          //} 
         >
           <img src={datas.btn} alt={datas.alt} />
         </button>
