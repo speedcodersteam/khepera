@@ -14,9 +14,12 @@ const Help = () => {
       {showPopup && (
         <div className="popup">
           <span className="close" onClick={togglePopup}>&times;</span>
+          <p className='helpParagraph' >If you need help.</p>
           <p className='helpParagraph' >Call the same number and  tell "KHEPERA" and nothing else, Ask your question. You have only one question. Use it wisely.</p>
-          <hr></hr>
-          <p className='helpParagraph' >If you found it, take a picture of all the batchmates with it and send it as proves.</p>
+          {/*
+            <hr></hr>
+            <p className='helpParagraph' >If you found it, take a picture of all the batchmates with it and send it as proves.</p>
+          */}
         </div>
       )}
     </div>

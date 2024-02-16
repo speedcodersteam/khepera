@@ -5,13 +5,18 @@
 
 .popup {
     font-family: "Marhey", sans-serif;
+    background-image: url('../../assets/bg5.png');
+    background-size: 100%;
+    background-repeat: cover;
+    background-position: center center;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
     border: 3px solid brown;
+    border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 3px 4px 40px 7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 4px 40px 7px rgba(0, 0, 0, 0.75);
@@ -19,6 +24,7 @@
     z-index: 1000;
     border-radius: 10px;
     width: 80%;
+    max-width: 500px;
 }
 
 .close {
@@ -28,14 +34,6 @@
     cursor: pointer;
     font-size: 25px;
     padding: 5px;
-}
-
-.helpButton {
-    font-weight: 700;
-    padding: 5px;
-    border: 3px solid brown;
-    border-radius: 20px;
-    background-color: transparent;
 }
 
 hr {
