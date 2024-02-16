@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import './preload.css';
-import imageOne from "../../assets/preload/one.jpg";
+import imageSix from "../../assets/preload/one.jpg";
 import imageTwo from "../../assets/preload/two.jpg";
 import imageThree from "../../assets/preload/three.jpg";
 import imageFour from "../../assets/preload/four.jpg";
 import imageFive from "../../assets/preload/five.jpg";
-import imageSix from "../../assets/preload/six.jpg";
+import imageOne from "../../assets/preload/six.jpg";
 import imageSeven from "../../assets/preload/seven.jpg";
 
 const Preloader = () => {
