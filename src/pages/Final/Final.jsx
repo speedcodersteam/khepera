@@ -11,7 +11,7 @@ export default function Final() {
           <h1>Congratulations</h1>
         </div>
         <div className="subTitle">
-          <p>Now you have access to the heart</p>
+          <p>New Life Awaits</p>
         </div>
         <div className="wrapper">
         <div className="itemContainer">
