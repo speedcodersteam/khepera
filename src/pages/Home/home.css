@@ -30,7 +30,7 @@ section {
 }
 
 .container {
-    background-image: url('../../assets/bg6.png');
+    background-image: url('../../assets/papyrus.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -50,6 +50,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 0vh 5vw 2vh 5vw;
     border-bottom: 3px solid black;
 }
@@ -104,7 +105,7 @@ section {
     color: maroon;
 }
 
-.hintDescription-container {
+.hintDescription-container{
     margin-top: 10px;
     height: 10vh;
 }
@@ -127,17 +128,17 @@ section {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.2s; 
 }
 
 .buttons-container button:active {
-    transform: scale(0.95);
+    transform: scale(0.95); 
 }
-
+  
 .buttons-container button img {
     width: 60px;
-    height: 60px;
-}
+    height: 60px; 
+  }
 
 .help {
     margin-top: 20px;
@@ -152,10 +153,10 @@ section {
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-weight: bolder;
+    font-weight:bolder;
     padding: 5px 10px;
     border: 3px solid brown;
-    background-color: rgba(240, 248, 255, 0.2);
+    background-color: rgba(240, 248, 255, 0.2);    
     border-radius: 20px;
     cursor: pointer;
 }
@@ -167,29 +168,33 @@ section {
     .header {
         padding: 3vh 20px;
     }
+
     .title img {
         width: 100%;
         max-width: 300px;
         height: auto;
     }
     .caption {
-        font-size: 20px;
+        font-size:  20px;  
     }
-    .hintTitle {
-        font-size: 18px;
+
+    .hintTitle{
+        font-size:  18px;  
     }
-    .hintSubTitle {
-        font-size: 16px;
-    }
-    .hintDescription {
-        font-size: 13px;
+
+    .hintSubTitle{
+        font-size:  16px;      
+    }   
+
+    .hintDescription{
+        font-size:  13px; 
     }
     .buttons-container button {
         margin: 0 3vw;
     }
     .buttons-container button img {
         width: 45px;
-        height: 45px;
+        height: 45px; 
     }
     .help {
         margin-top: 20px;
@@ -206,37 +211,45 @@ section {
     .header {
         padding: 3vh 0px;
     }
+
     .title img {
         width: 100%;
         max-width: 220px;
         height: auto;
     }
+    
     .caption {
-        font-size: 16px;
+        font-size:  16px;  
     }
-    .hintTitle {
-        font-size: 15px;
+
+    .hintTitle{
+        font-size:  15px;  
     }
-    .hintSubTitle {
-        font-size: 15px;
+
+    .hintSubTitle{
+        font-size:  15px;     
         line-height: 1.2;
-    }
-    .hintDescription-container {
+    }   
+
+    .hintDescription-container{
         margin-top: 1vh;
         height: 15vh;
     }
-    .hintDescription {
-        font-size: 13px;
+
+    .hintDescription{
+        font-size:  13px; 
     }
+
     .buttons-container {
         margin-top: 20px;
-    }
+      }
+
     .buttons-container button {
         margin: 0 3vw;
     }
     .buttons-container button img {
         width: 45px;
-        height: 45px;
+        height: 45px; 
     }
     .help {
         margin-top: 20px;
