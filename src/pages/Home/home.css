@@ -30,14 +30,14 @@ section {
 }
 
 .container {
-    background-image: url('../../assets/papyrus.png');
+    background-image: url('../../assets/bg6.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
     border: none;
     width: 700px;
     margin: auto;
-    padding: 3vh 4rem;
+    padding: 0vh 4rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -108,6 +108,10 @@ section {
 .hintDescription-container{
     margin-top: 10px;
     height: 10vh;
+
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
 }
 
 .hintDescription {
@@ -163,7 +167,7 @@ section {
 
 @media screen and (max-width: 550px) {
     .container {
-        padding: 3vh 2rem;
+        padding: 0 2rem;
     }
     .header {
         padding: 3vh 20px;
@@ -206,7 +210,7 @@ section {
 
 @media screen and (max-width: 350px) {
     .container {
-        padding: 3vh 2rem;
+        padding: 0 2rem;
     }
     .header {
         padding: 3vh 0px;

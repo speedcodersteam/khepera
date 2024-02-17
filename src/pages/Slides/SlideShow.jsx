@@ -17,10 +17,12 @@ const SlideShow = () => {
             <img className='hintImage' src={datas.src} alt={datas.alt} />
             <h4 className='hintSubTitle'>{datas.subTitle}</h4>
             <div className='hintDescription-container'>
-              {datas.description.split('\n').map((paragraph, index) => (
-                <p className='hintDescription' key={index}>{paragraph}</p>
-              ))}
-            </div>
+              <div>
+                {datas.description.split('\n').map((paragraph, index) => (
+                  <p className='hintDescription' key={index}>{paragraph}</p>
+                ))}
+              </div>
+          </div>
           </div>
         ))}
       </div>

@@ -118,8 +118,8 @@
   }
 
   .rowTwo {
-    position: absolute;
-    bottom: 10vh;
+    position: fixed;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
   }
