@@ -32,7 +32,7 @@ const Data = [
     alt: '1', 
     title: 'Eye of Ra',
     subTitle: 'Symbol of kings and order',
-    description : "Seek for the eye of greate God ra,\nFulfill your destiny fulfill your task,\nThen you shall grant the new life's heart...."
+    description : "Seek for the eye of great God ra,\nFulfill your destiny fulfill your task,\nThen you shall grant the new life's heart...."
   },
 ];
 

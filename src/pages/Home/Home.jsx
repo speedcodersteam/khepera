@@ -21,7 +21,7 @@ export default function Home() {
               <div className='header'>
                 <div className='title'>
                   <img src={titleImg} alt="title" />
-                  <p className='caption'>Find The Treasure</p>
+                  <p className='caption'>Find The Relic</p>
                 </div>
               </div>
               <div className='imageContent'>
